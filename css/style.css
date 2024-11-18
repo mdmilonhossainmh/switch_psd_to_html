@@ -1,0 +1,246 @@
+*{
+   padding: 0;
+   margin: 0;
+   outline: none;
+}
+ul,ol{
+   list-style: none;
+   padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+a,
+button,
+nav,
+ul,
+li,
+span,
+nav {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.cbg{
+   background-color: #54d154 !important;
+}
+
+body{
+   font-family: "Montserrat", sans-serif;
+   font-family: "Open Sans", sans-serif;
+}
+/* universel end --------------------------------*/
+
+/* header css start */
+header{
+   background-image: url(../img/psdimg/bannar.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+/* header css end */
+/* head css start */
+.logo a{
+   font-size: 20px;
+}
+
+.nav .barss{
+display: none;
+}
+.nav ul{
+   display: flex;
+   justify-content: space-between;
+}
+ .navbar-nav .nav-item a.nav-link{
+   padding: 10px 4px;
+   text-transform: uppercase;
+   border-top: 4px solid transparent !important;
+   color: white;
+}
+.navbar-nav .nav-item a.nav-link:hover{
+   border-top: 4px solid #54d154 !important;
+   width: 100% !important;
+}
+.bannartextt{
+   font-size: 21.89pt;
+}
+/* search box */
+
+.top-50 {
+	top: 36% !important;
+}
+
+.banarText{
+   padding:250px 0px !important;
+}
+.bannarbtn{
+   margin-bottom: -500px !important;
+}
+@media(max-width:992px){
+   .nav ul li a i{
+      display: auto;
+   }
+   .navbar-nav .nav-item a.nav-link{
+      width: 100px !important; 
+      text-wrap: nowrap;
+   }
+   .navbar-nav .nav-item a.nav-link:hover{
+      border-top: 4px solid #54d154 !important;
+      width: 100px !important;
+   }
+   .ms-auto {
+      margin-left: 0px !important;
+   }
+
+
+}
+   @media(max-width:768px){
+      .nav .barss{
+         display: inline-block;
+         background-color: goldenrod;
+         padding: 5px;
+         height: 50px;
+         }
+       .nav ul{
+         display: flex;
+         flex-direction: column;
+         
+       }
+       .ulshow{
+         display: none;
+       }
+       .nav ul li a i{
+         display: inline-block;
+      }
+   }
+/* head css end */
+
+/* about css start */
+  .commonHead{
+   position: relative;
+   font-size: 20.54pt;
+  }
+  .commonHeadp{
+   font-size: 15pt;
+   margin-top: 24px !important;
+  }
+
+  .commonHead::after {
+	position: absolute;
+	content: "";
+	background-color: rgb(21, 12, 12);
+	width: 5%;
+	height: 2px;
+	left: 48%;
+	top: 100%;
+	border-radius: 15px;
+   margin: 10px 0;
+   }
+
+
+  .backgrundC{
+   background-color: #e1f3e1;
+   width: 100px;
+   height: 90px;
+  }
+  .backgrundC img {
+	width: 65px;
+	height: 57px;
+}
+/* about css end -------------------*/
+
+
+/*gridd css  start */
+.gridd{
+   display: grid;
+   grid-template-columns:repeat(5, 1fr);
+   grid-gap:20px;
+
+}
+
+.gridd img{
+   width: 100%;
+   align-self: center;
+   justify-self: center;
+}
+.sortbtn{
+   background-color: aliceblue;
+   margin: 0 !important;
+   
+}
+.sortbtn:first-child{
+   border-radius: 15px 0  0 15px;
+   background-color: #369436;
+   color: white;
+}
+.sortbtn:last-child{
+   border-radius: 0 15px 15px 0;
+}
+.sortbtn:hover{
+   background-color: #369436;
+   color: white;
+}
+/*gridd css end----------- */
+
+/*textimonial  css   start */
+.carousel-item{
+   padding: 0 200px !important;
+   text-align: center;
+}
+.clainte{
+   margin: 15px 0 !important;
+}
+.clainteImg{
+   width: 50px;
+   height: 50px ;
+   border-radius: 50%;
+   margin-right: 7px;
+}
+.carousel-item {
+	padding: 0 200px !important;
+	text-align: center;
+  
+   margin: 0 100px;
+}
+/*textimonial  css   end----------- */
+
+
+/*imgIcon  start */
+.imgIcon div img{
+margin: 20px 0;
+
+}
+.imgIcon div{
+   text-align: center;
+}
+/*imgIcon  end----------- */
+
+/* team css start */
+
+ .linee{
+   height: 100px !important;
+   width: 2px !important;
+   background-color: black !important;
+ }
+/*team css end----------- */
+
+
+
+/* footer css start */
+.footerimg{
+   width: 50px;
+   margin-right:20px ;
+}
+/* footer css end */
+
+
+
+/* ===================================== */
+
+/*     start */
+
+/*     end----------- */
